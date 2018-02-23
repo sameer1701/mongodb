@@ -1,0 +1,15 @@
+use dashboard
+
+db.createCollection('mycollection1')
+
+db.mycollection1.insert ({"hostName":"CLPVTPNDBS01",	"applicationName":"assetRegistry",	"appserver":"Tomcat 7",	"DBVersion":"MySQL5",	"Appstatus":"True","DBstatus":"True","OS":"RHEL5","health":"running","javaVesion":"Java8","type":"appserver","available_size":"84G","available_size_percentage":"94%"})
+
+db.mycollection1.insert ({"hostName":"CLPVTPNDBS03",	"applicationName":"assetRegistry",	"appserver":"Tomcat 7",	"DBVersion":"MySQL5",	"Appstatus":"True","DBstatus":"True","OS":"RHEL5","health":"running","javaVesion":"Java8","type":"appserver","available_size":"84G","available_size_percentage":"94%"})
+
+db.mycollection1.insert ({"hostName":"clpvdpnsvn01",	"applicationName":"assetRegistry",	"appserver":"Tomcat 7",	"DBVersion":"MySQL5",	"Appstatus":"True","DBstatus":"True","OS":"RHEL5","health":"running","javaVesion":"Java8","type":"appserver","available_size":"84G","available_size_percentage":"94%"})
+
+db.mycollection1.insert ({"hostName":"CLPVTPNDBS02",	"applicationName":"assetRegistry",	"appserver":"Tomcat 7",	"DBVersion":"MySQL5",	"Appstatus":"True","DBstatus":"True","OS":"RHEL5","health":"running","javaVesion":"Java8","type":"DBServer","available_size":"84G","available_size_percentage":"94%"})
+
+db.mycollection1.insert ({"hostName":"CLPVTPNDBS01",	"applicationName":"assetRegistry",	"appserver":"Tomcat 7",	"DBVersion":"MySQL5",	"Appstatus":"True","DBstatus":"True","OS":"RHEL5","health":"running","javaVesion":"Java8","type":"DBServer","available_size":"84G","available_size_percentage":"94%"})
+
+db.mycollection1.insert ({"hostName":"CLPVTPNDBS03",	"applicationName":"assetRegistry",	"appserver":"Tomcat 7",	"DBVersion":"MySQL5",	"Appstatus":"True","DBstatus":"True","OS":"RHEL5","health":"running","javaVesion":"Java8","type":"DBServer","available_size":"84G","available_size_percentage":"94%"})
